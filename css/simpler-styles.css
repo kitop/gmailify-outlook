@@ -1,0 +1,17 @@
+.custom-style .showAsFlagged,
+.custom-style .showAsPinnedOrFlagged,
+.custom-style .showAsPinned,
+.custom-style .showAsToolTip {
+  background: #fff;
+}
+
+.custom-style .previewOn {
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  height: auto;
+  padding: 3px 0px;
+}
+
+.custom-style [role="heading"][tabindex="-1"]:not([class]) {
+  display: none;
+}
