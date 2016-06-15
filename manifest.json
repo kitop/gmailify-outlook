@@ -3,13 +3,14 @@
 
 	"name": "Gmailify Outlook",
 	"description": "Change Outlook365 colors to have less color highlighting",
-	"version": "0.2.1",
+	"version": "0.2.2",
 
 	"permissions": [
+		"https://outlook.office.com/",
 		"https://outlook.office365.com/"
 	],
 	"content_scripts": [{
-		"matches": ["https://outlook.office365.com/*"],
+		"matches": ["https://outlook.office365.com/*", "https://outlook.office.com/*"],
 		"css": ["css/simpler-styles.css"],
 		"js":  ["js/body-style.js"]
 	}]
